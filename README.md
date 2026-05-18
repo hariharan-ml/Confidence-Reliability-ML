@@ -89,9 +89,6 @@ confidence_reliability_project/
 ├── report/
 ├── README.md
 └── project_timeline.md
-```
-
----
 
 ## Technologies Used
 
@@ -112,4 +109,5 @@ Confidence-aware evaluation is essential for trustworthy AI deployment.
 
 
 ## Author
+
 Hariharan D
