@@ -88,6 +88,7 @@ Confidence-Reliability-ML/
 ├── report/
 ├── README.md
 └── project timeline.md
+```
 
 
 ## Technologies Used
@@ -99,7 +100,7 @@ Confidence-Reliability-ML/
 - Matplotlib
 - Jupyter Notebook
 
----
+
 
 ## Key Learning
 
