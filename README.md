@@ -2,7 +2,7 @@
 
 Independent Machine Learning Research Project
 
-📄 Full Report: [machine_learning_reliability_report.pdf](report/Machine_Learning_Reliability_Report.pdf)
+📄 Full Report: [Machine_Learning_Reliability_Report.pdf](report/Machine_Learning_Reliability_Report.pdf)
 
 
 
