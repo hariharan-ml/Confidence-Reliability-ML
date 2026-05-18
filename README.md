@@ -4,7 +4,7 @@ Independent Machine Learning Research Project
 
 📄 Full Report: [project_report.pdf](report/Machine Learning Relaibility_report.pdf)
 
----
+
 
 ## Overview
 
@@ -17,7 +17,7 @@ The project analyzes:
 - distribution shift reliability
 - comparative model reliability
 
----
+
 
 ## Objectives
 
@@ -41,7 +41,7 @@ The project analyzes:
 6. Distribution shift evaluation
 7. Reliability comparison
 
----
+
 
 ## Key Findings
 
@@ -50,7 +50,7 @@ The project analyzes:
 - Distribution shift causes major reliability degradation
 - Accuracy alone is insufficient for evaluating reliability
 
----
+
 
 ## Sample Experimental Outputs
 
@@ -58,29 +58,29 @@ The project analyzes:
 
 <img src="student-performance-concept-drift/figures/fig_05_02_Confidence_Distribution.png" width="550">
 
----
+
 
 ### Calibration Curve
 
 <img src="student-performance-concept-drift/figures/fig_05_03_Calibration_Curve.png" width="550">
 
----
+
 
 ### Distribution Shift Experiment
 
 <img src="student-performance-concept-drift/figures/fig_05_08_Distribution_Shift.png" width="550">
 
----
+
 
 ### Reliability Across Corruption Scenarios
 
 <img src="student-performance-concept-drift/figures/fig_05_09_Model_Reliability_Corruption.png" width="550">
 
----
+
 
 ## Repository Structure
 
-```text
+
 confidence_reliability_project/
 │
 ├── confidence_reliability.ipynb
@@ -102,16 +102,14 @@ confidence_reliability_project/
 - Matplotlib
 - Jupyter Notebook
 
----
+
 
 ## Key Learning
 
 Machine learning systems may appear accurate while still being poorly calibrated and unreliable under changing conditions.
-
 Confidence-aware evaluation is essential for trustworthy AI deployment.
 
----
+
 
 ## Author
-
 Hariharan D
