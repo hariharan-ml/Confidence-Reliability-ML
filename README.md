@@ -2,7 +2,7 @@
 
 Independent Machine Learning Research Project
 
-📄 Full Report: [project_report.pdf](report/Machine Learning Relaibility_report.pdf)
+📄 Full Report: [machine_learning_reliability_report.pdf](report/machine_learning_reliability_report.pdf)
 
 
 
@@ -29,7 +29,7 @@ The project analyzes:
 - Analyze performance under distribution shift
 - Compare Logistic Regression and Random Forest models
 
----
+
 
 ## Methodology
 
@@ -56,38 +56,38 @@ The project analyzes:
 
 ### Confidence vs Correctness Distribution
 
-<img src="student-performance-concept-drift/figures/fig_05_02_Confidence_Distribution.png" width="550">
+<img src="figures/fig_05_02_Confidence_Distribution.png" width="550">
 
 
 
 ### Calibration Curve
 
-<img src="student-performance-concept-drift/figures/fig_05_03_Calibration_Curve.png" width="550">
+<img src="figures/fig_05_03_Calibration_Curve.png" width="550">
 
 
 
-### Distribution Shift Experiment
+### Performance under Distribution Shift
 
-<img src="student-performance-concept-drift/figures/fig_05_08_Distribution_Shift.png" width="550">
+<img src="figures/fig_05_08_Performance_under_Distribution_Shift.png" width="550">
 
 
 
-### Reliability Across Corruption Scenarios
+### Model Reliability Across Corruption Scenarios
 
-<img src="student-performance-concept-drift/figures/fig_05_09_Model_Reliability_Corruption.png" width="550">
-
+<img src="figures/fig_05_09_Model_Reliability_Across_Corruption_Scenarios.png" width="550">
 
 
 ## Repository Structure
 
-
-confidence_reliability_project
+```text
+Confidence-Reliability-ML/
+│
 ├── confidence_reliability.ipynb
 ├── data/
 ├── figures/
 ├── report/
 ├── README.md
-└── project_timeline.md
+└── project timeline.md
 
 
 ## Technologies Used
@@ -99,14 +99,15 @@ confidence_reliability_project
 - Matplotlib
 - Jupyter Notebook
 
-
+---
 
 ## Key Learning
 
 Machine learning systems may appear accurate while still being poorly calibrated and unreliable under changing conditions.
+
 Confidence-aware evaluation is essential for trustworthy AI deployment.
 
-
+---
 
 ## Author
 
