@@ -1,10 +1,26 @@
 # Confidence vs Correctness: Machine Learning Reliability Study
 
+Independent Machine Learning Research Project
+
+📄 Full Report: [project_report.pdf](report/Machine Learning Relaibility_report.pdf)
+
+---
+
 ## Overview
-This project investigates machine learning model reliability beyond traditional accuracy metrics.  
-It analyzes how prediction confidence relates to correctness under corruption and distribution shift scenarios.
+
+This project investigates machine learning reliability beyond traditional accuracy metrics. The study evaluates how prediction confidence relates to actual correctness under corruption and distribution shift scenarios.
+
+The project analyzes:
+- confidence calibration
+- overconfidence behaviour
+- robustness under corrupted data
+- distribution shift reliability
+- comparative model reliability
+
+---
 
 ## Objectives
+
 - Analyze confidence vs correctness distribution
 - Evaluate model calibration
 - Study reliability under feature noise
@@ -13,37 +29,89 @@ It analyzes how prediction confidence relates to correctness under corruption an
 - Analyze performance under distribution shift
 - Compare Logistic Regression and Random Forest models
 
-## Dataset
-Adult Income Dataset
+---
 
-## Experiments Conducted
-1. Baseline model evaluation
-2. Confidence distribution analysis
-3. Calibration curve assessment
-4. Reliability vs training data size
-5. Feature noise corruption
-6. Label corruption experiment
-7. Missing data robustness test
-8. Distribution shift simulation
-9. Model comparison analysis
+## Methodology
+
+1. Data preprocessing
+2. Baseline model training
+3. Confidence extraction
+4. Corruption simulation
+5. Calibration analysis
+6. Distribution shift evaluation
+7. Reliability comparison
+
+---
 
 ## Key Findings
-- Models can remain highly confident even when incorrect.
-- Calibration degrades significantly under corruption.
-- Distribution shift impacts both accuracy and confidence reliability.
+
+- Models can remain highly confident even when incorrect
+- Calibration degrades significantly under corruption
+- Distribution shift causes major reliability degradation
+- Accuracy alone is insufficient for evaluating reliability
+
+---
+
+## Sample Experimental Outputs
+
+### Confidence vs Correctness Distribution
+
+<img src="student-performance-concept-drift/figures/fig_05_02_Confidence_Distribution.png" width="550">
+
+---
+
+### Calibration Curve
+
+<img src="student-performance-concept-drift/figures/fig_05_03_Calibration_Curve.png" width="550">
+
+---
+
+### Distribution Shift Experiment
+
+<img src="student-performance-concept-drift/figures/fig_05_08_Distribution_Shift.png" width="550">
+
+---
+
+### Reliability Across Corruption Scenarios
+
+<img src="student-performance-concept-drift/figures/fig_05_09_Model_Reliability_Corruption.png" width="550">
+
+---
 
 ## Repository Structure
-- `confidence_reliability.ipynb` → Main implementation
-- `data/` → Dataset
-- `figures/` → Experiment plots
-- `report/` → Final PDF report
-- `project timeline.md` → Development timeline
 
-## Tools Used
+```text
+confidence_reliability_project/
+│
+├── confidence_reliability.ipynb
+├── data/
+├── figures/
+├── report/
+├── README.md
+└── project_timeline.md
+```
+
+---
+
+## Technologies Used
+
 - Python
 - Scikit-learn
 - NumPy
 - Pandas
 - Matplotlib
+- Jupyter Notebook
 
-Author: Hariharan D
+---
+
+## Key Learning
+
+Machine learning systems may appear accurate while still being poorly calibrated and unreliable under changing conditions.
+
+Confidence-aware evaluation is essential for trustworthy AI deployment.
+
+---
+
+## Author
+
+Hariharan D
