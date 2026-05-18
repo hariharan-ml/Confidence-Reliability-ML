@@ -81,14 +81,14 @@ The project analyzes:
 ## Repository Structure
 
 
-confidence_reliability_project/
-│
+confidence_reliability_project
 ├── confidence_reliability.ipynb
 ├── data/
 ├── figures/
 ├── report/
 ├── README.md
 └── project_timeline.md
+
 
 ## Technologies Used
 
