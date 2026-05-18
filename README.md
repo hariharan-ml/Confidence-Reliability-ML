@@ -2,7 +2,7 @@
 
 Independent Machine Learning Research Project
 
-📄 Full Report: [machine_learning_reliability_report.pdf](report/machine_learning_reliability_report.pdf)
+📄 Full Report: [machine_learning_reliability_report.pdf](report/Machine_Learning_Reliability_Report.pdf)
 
 
 
@@ -108,7 +108,7 @@ Machine learning systems may appear accurate while still being poorly calibrated
 
 Confidence-aware evaluation is essential for trustworthy AI deployment.
 
----
+
 
 ## Author
 
